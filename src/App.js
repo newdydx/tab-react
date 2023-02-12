@@ -19,7 +19,7 @@ const App = () => {
 
   useEffect(() => {
     fetchUrl();
-  }, []);
+  },[]);
 
   if (loading) {
     return (
