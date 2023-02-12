@@ -16,7 +16,7 @@ const App = () => {
     setLoading(false);
     // console.log(users);
   };
-
+  
   useEffect(() => {
     fetchUrl();
   },[]);
@@ -28,6 +28,7 @@ const App = () => {
       </section>
     );
   }
+  
   const { company, dates, duties, title } = users[value];
   return (
     <section className="section">
