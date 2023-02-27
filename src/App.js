@@ -39,7 +39,7 @@ const App = () => {
       <div className="jobs-center">
         <div className="btn-container">
           {users.map((user, index) => {
-            console.log(user, index);
+//             console.log(user, index);
             return (
               <button
                 key={user.id}
